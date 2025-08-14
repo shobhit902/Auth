@@ -1,0 +1,35 @@
+{
+  "name": "auth-1",
+  "version": "1.0.0",
+  "description": "Authentication System which will be used accrossed all my apps",
+  "homepage": "https://github.com/shobhit902/Auth#readme",
+  "bugs": {
+    "url": "https://github.com/shobhit902/Auth/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shobhit902/Auth.git"
+  },
+  "license": "ISC",
+  "author": "Shobhit Rawat",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon Backend/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mailtrap": "^4.2.0",
+    "mongoose": "^8.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
+}
